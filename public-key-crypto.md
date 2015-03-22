@@ -1,8 +1,3 @@
-# End to End cryptography
-End to End cryptography is the ability for 2 people to communicate
-securely over insecure connections. To do this two users who want to
-communicate must first generate crypto key
-
 # Public key cryptography
 
 ## The traditional method and problem
@@ -19,7 +14,7 @@ same secret "mysecretpassword". This is particularly tricky if they are
 communicating only by means which they don't think are secure
 (unencrypted email, SMS etc...). If someone was listening to their
 messages they'd be able to intercept the secret key and read all of
-their messages.
+their encrypted communications.
 
 
 ## The solution: Public and Private keys
@@ -84,4 +79,4 @@ There are many ways to validate a person's key. If possible the best
 solution is to physically meet the other party and compare the public
 key that you have for them, and their own public key.
 
-You can verify the fingerprint by reading it aloud over a phone call and verifying that you both have the same fingerprint for the same key.
+You can verify the fingerprint by reading it aloud over a phone call and verifying that you both have the same fingerprint for the same key, or by writing it down and exchanging fingerprints in person.
