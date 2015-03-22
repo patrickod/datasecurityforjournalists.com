@@ -45,3 +45,43 @@ private key.
 
 Now Alice can send Bob messages securely, safe in the knowledge that
 only Bob can decrypt them.
+
+
+# Trusting public keys
+
+## The problem
+
+While public key cryptography removes the problem of shared secrets, one
+major problem that remains is this: how do you trust that a given public
+key really belongs to someone.
+
+For example. Malory could create a new public key with Bob's and share
+it publicly. When Alice wants to communicate with Bob she could find the
+fake key Malory created and use it to encrypt her messages. Alice thinks
+that only Bob can read them, but in reality only Malory can.
+
+This is a problem of key distribution and verification. There are
+methods you can use to ensure that the key you have is really that of
+the person with whom you want to communicate.
+
+## Verifying public keys.
+
+To communicate with someone securely using public key cryptography you
+must first validate the public key you have for someone.
+
+
+## Fingerprints
+
+Your key can be many thousands of characters long. To make it easier to validate keys it's possible to generate a much shorter unique identifier called a fingerprint for that key. This fingerprint (around 40 characters) can be used to uniquely refer to the particular key that generated it.
+
+Thus if when Alice is trying to validate Bob's key both Alice and Bob generate and compare the fingerprints they'll only have to check 40 characters instead of the many thousand in the key.
+
+**NB** When comparing fingerprints it's extremely important to check that every character and letter match. A single non-matching character could indicate that someone has maliciously generated a fake key in a bid to impersonate the key owner.
+
+## Verifying keys out-of-band
+
+There are many ways to validate a person's key. If possible the best
+solution is to physically meet the other party and compare the public
+key that you have for them, and their own public key.
+
+You can verify the fingerprint by reading it aloud over a phone call and verifying that you both have the same fingerprint for the same key.
