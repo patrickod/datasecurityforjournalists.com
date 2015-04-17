@@ -18,9 +18,5 @@ This site houses the material for the Data Security for Journalists workshop at 
     * [Tor](/tools/tor.html)
 
   * Email - Pretty Good Privacy
-    * Windows
-    * Mac
-
-  * File encryption
-    * Truecrypt
-    * Filevault (OS X)
+    * [Windows](/tools/pgp-windows.html)
+    * [Mac OS X](/tools/pgp-osx.html)
