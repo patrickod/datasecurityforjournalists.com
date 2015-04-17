@@ -11,19 +11,16 @@ This site houses the material for the Data Security for Journalists workshop at 
   * [Privacy vs Anonymity](/overview/privacy-vs-anonymity.html)
 
 ## Tools
+  * SMS
+    * [TextSecure - Android](/tools/textsecure.html)
+    * [Signal - iOS](/tools/signal.html)
+
+  * Anonymity
+    * Tor
 
   * Email - Pretty Good Privacy
     * Windows
     * Mac
-
-  * SMS
-    * TextSecure
-    * Signal
-
-
-  * Anonymity
-    * Tor
-    * Tails
 
   * File encryption
     * Truecrypt
