@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   What should you do if you are contacted by a source who wants to share sensitive information? How do you prevent third parties from eavesdropping if you have a major scoop? How can you use encryption to safeguard email, chat, and text messages? This site serves as a guide for journalists and others looking to project themselves and their sources.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "cpj.patrickod.com" # the base hostname & protocol for your site
+url: "datasecurityforjournalists.com" # the base hostname & protocol for your site
 twitter_username: patrickod
 github_username:  patrickod
 
